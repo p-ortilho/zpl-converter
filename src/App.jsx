@@ -71,6 +71,7 @@ function App() {
     window.URL.revokeObjectURL(pdfUrl); // revogando a URL do PDF
     setBotaoVisivel(false); // oculta o botão de download
     setConteudoArquivo(""); // limpa o conteúdo do textarea
+    document.querySelector('.form-group--file').value = "";// Resetar o input file
   }
 
   return (
