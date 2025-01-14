@@ -1,6 +1,6 @@
 import * as Form from "@radix-ui/react-form";
 import "./Formulario.css";
-import { Button } from "@radix-ui/themes";
+import { Button} from "@radix-ui/themes";
 
 const Formulario = ({leituraArquivo}) => {
   return (
